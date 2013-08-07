@@ -30,6 +30,7 @@ h5 small,
 h6 small
 {
 	font-family: 'Gentium Book Basic', serif;
+	font-weight: normal;
 	text-transform: none;
 }
 
@@ -38,6 +39,33 @@ a:hover,
 a:focus
 {
 	color: #E44249;
+}
+
+.list-inline-separated
+{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline-separated > li
+{
+	display: inline-block;
+	padding: 0px;
+}
+
+.list-inline-separated > li:first-child
+{
+	padding-left: 0px;
+}
+
+.list-inline-separated > li:last-child
+{
+	padding-right: 0px;
+}
+
+.list-inline-separated > li + li:before
+{
+	content: '\00b7\A0';
 }
 
 blockquote
@@ -51,18 +79,28 @@ section blockquote p
 	font-size: 38px;
 }
 
+section blockquote small
+{
+	font-size: 18px;
+}
+
 aside blockquote p
 {
 	font-size: 24px;
 }
 
-aside,
+aside
+{
+	margin-top: 200px;
+}
+
 section
 {
 	margin-top: 120px;
 }
 
-section p
+section p,
+section ul
 {
 	font-size: 21px;
 	margin-bottom: 20px;
@@ -88,7 +126,6 @@ section p.avatar
 
 body > header
 {
-	background-color: #F7F7EC;
 	min-height: 100%;
 	padding-bottom: 40px;
 	padding-top: 40px;
@@ -104,6 +141,21 @@ body > header h2
 	margin-bottom: 20px;
 	margin-top: 20px;
 	text-transform: none;
+}
+
+body > header h1 a,
+body > header h2 a
+{
+	color: inherit;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+body > header h1 a:hover,
+body > header h2 a:hover
+{
+	color: #999999;
+	text-decoration: none;
 }
 
 body > header h3
@@ -127,8 +179,15 @@ body > header h3
 
 body > footer
 {
+	margin-top: 120px;
+}
+
+body > footer .container
+{
+	border-bottom: 1px solid #EEEEEE;
+	border-top: 1px solid #EEEEEE;
 	padding-bottom: 20px;
-	padding-top: 80px;
+	padding-top: 20px;
 }
 
 @media (max-width: 767px)
@@ -142,4 +201,17 @@ body > footer
 	{
 		margin-bottom: 0px;
 	}
+}
+
+body > nav
+{
+	color: #999999;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+body > nav p
+{
+	margin-bottom: 0px;
 }

@@ -1,0 +1,27 @@
+body > header
+{
+	min-height: 0px;
+}
+
+body > header h1 em
+{
+	color: #999999;
+}
+
+body > blockquote
+{
+	background-color: #000000;
+	margin: 0px 0px 0px 0px;
+	padding: 120px 0px 120px 0px;
+}
+
+body > blockquote p
+{
+	color: #FFFFFF;
+	font-size: 38px;
+}
+
+body > blockquote small
+{
+	font-size: 18px;
+}
