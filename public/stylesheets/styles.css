@@ -1,0 +1,145 @@
+html, body
+{
+	font-family: 'Gentium Book Basic', serif;
+	height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+h1 em,
+h2 em,
+h3 em,
+h4 em,
+h5 em,
+h6 em,
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small
+{
+	font-family: 'Gentium Book Basic', serif;
+	text-transform: none;
+}
+
+a,
+a:hover,
+a:focus
+{
+	color: #E44249;
+}
+
+blockquote
+{
+	border: none;
+	padding: 0px 0px 0px 0px;
+}
+
+section blockquote p
+{
+	font-size: 38px;
+}
+
+aside blockquote p
+{
+	font-size: 24px;
+}
+
+aside,
+section
+{
+	margin-top: 120px;
+}
+
+section p
+{
+	font-size: 21px;
+	margin-bottom: 20px;
+}
+
+section p.avatar
+{
+	margin-top: 60px;
+	text-align: center;
+}
+
+.container > *:first-child,
+*[class^="col-"] > *:first-child
+{
+	margin-top: 0px;
+}
+
+.container > *:last-child,
+*[class^="col-"] > *:last-child
+{
+	margin-bottom: 0px;
+}
+
+body > header
+{
+	background-color: #F7F7EC;
+	min-height: 100%;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+body > header h2
+{
+	color: #999999;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-transform: none;
+}
+
+body > header h3
+{
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+@media (max-width: 767px)
+{
+	body > header *[class^="col-"] > *:last-child
+	{
+		margin-bottom: 10px;
+	}
+
+	body > header *[class^="col-"]:last-child > *:last-child
+	{
+		margin-bottom: 0px;
+	}
+}
+
+body > footer
+{
+	padding-bottom: 20px;
+	padding-top: 80px;
+}
+
+@media (max-width: 767px)
+{
+	body > footer *[class^="col-"] > *:last-child
+	{
+		margin-bottom: 10px;
+	}
+
+	body > footer *[class^="col-"]:last-child > *:last-child
+	{
+		margin-bottom: 0px;
+	}
+}
