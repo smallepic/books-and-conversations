@@ -41,6 +41,95 @@ a:focus
 	color: #E44249;
 }
 
+.btn
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.btn-facebook
+{
+	color: #ffffff;
+	background-color: #3B5998;
+	border-color: #3B5998;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active,
+.btn-facebook.active
+{
+	background-color: #314F8E;
+	border-color: #274584;
+}
+
+.btn-facebook.disabled,
+.btn-facebook[disabled],
+fieldset[disabled] .btn-facebook,
+.btn-facebook.disabled:hover,
+.btn-facebook[disabled]:hover,
+fieldset[disabled] .btn-facebook:hover,
+.btn-facebook.disabled:focus,
+.btn-facebook[disabled]:focus,
+fieldset[disabled] .btn-facebook:focus,
+.btn-facebook.disabled:active,
+.btn-facebook[disabled]:active,
+fieldset[disabled] .btn-facebook:active,
+.btn-facebook.disabled.active,
+.btn-facebook[disabled].active,
+fieldset[disabled] .btn-facebook.active
+{
+	background-color: #3B5998;
+	border-color: #3B5998;
+}
+
+.btn-twitter
+{
+	color: #ffffff;
+	background-color: #00ACED;
+	border-color: #00ACED;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active,
+.btn-twitter.active
+{
+	background-color: #00A2E3;
+	border-color: #0098D9;
+}
+
+.btn-twitter.disabled,
+.btn-twitter[disabled],
+fieldset[disabled] .btn-twitter,
+.btn-twitter.disabled:hover,
+.btn-twitter[disabled]:hover,
+fieldset[disabled] .btn-twitter:hover,
+.btn-twitter.disabled:focus,
+.btn-twitter[disabled]:focus,
+fieldset[disabled] .btn-twitter:focus,
+.btn-twitter.disabled:active,
+.btn-twitter[disabled]:active,
+fieldset[disabled] .btn-twitter:active,
+.btn-twitter.disabled.active,
+.btn-twitter[disabled].active,
+fieldset[disabled] .btn-twitter.active
+{
+	background-color: #00ACED;
+	border-color: #00ACED;
+}
+
+.list-inline > li:first-child
+{
+	padding-left: 0px;
+}
+
+.list-inline > li:last-child
+{
+	padding-right: 0px;
+}
+
 .list-inline-separated
 {
 	list-style: none;
@@ -94,7 +183,7 @@ aside
 	margin-top: 200px;
 }
 
-section
+article section
 {
 	margin-top: 120px;
 }
@@ -106,10 +195,82 @@ section ul
 	margin-bottom: 20px;
 }
 
-section p.avatar
+section .avatar
 {
 	margin-top: 60px;
 	text-align: center;
+}
+
+section .lead
+{
+	font-size: 32px;
+}
+
+.jumbotron
+{
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: inherit;
+	font-weight: normal;
+	line-height: inherit;
+	margin-bottom: 0px;
+}
+
+.jumbotron h1,
+.jumbotron h2,
+.jumbotron h3,
+.jumbotron h4,
+.jumbotron h5,
+.jumbotron h6
+{
+	color: #FFFFFF;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 38px;
+	font-weight: normal;
+	text-transform: none;
+}
+
+.jumbotron p
+{
+	color: #999999;
+	font-size: 21px;
+	line-height: 1.428571429;
+	margin-bottom: 20px;
+}
+
+.jumbotron blockquote
+{
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.jumbotron blockquote p
+{
+	color: #FFFFFF;
+	font-size: 38px;
+}
+
+@media screen and (min-width: 768px)
+{
+	.jumbotron
+	{
+		padding: 120px 0px 120px 0px;
+		border-radius: 0px;
+	}
+
+	.jumbotron h1
+	{
+		font-size: 63px;
+	}
+}
+
+
+label
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
 }
 
 .container > *:first-child,
@@ -126,10 +287,14 @@ section p.avatar
 
 body > header
 {
-	min-height: 100%;
 	padding-bottom: 40px;
 	padding-top: 40px;
 	text-align: center;
+}
+
+body > header h1 em
+{
+	color: #999999;
 }
 
 body > header h2
@@ -166,6 +331,16 @@ body > header h3
 
 @media (max-width: 767px)
 {
+	body > header h1
+	{
+		font-size: 32px;
+	}
+
+	body > header h2
+	{
+		font-size: 18px;
+	}
+
 	body > header *[class^="col-"] > *:last-child
 	{
 		margin-bottom: 10px;

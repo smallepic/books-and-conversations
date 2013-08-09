@@ -1,4 +1,10 @@
 body > header
 {
 	background-color: #F7F7EC;
+	min-height: 100%;
+}
+
+body > header h1 em
+{
+	color: #333333;
 }
