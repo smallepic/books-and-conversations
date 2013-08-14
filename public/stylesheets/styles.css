@@ -34,13 +34,6 @@ h6 small
 	text-transform: none;
 }
 
-a,
-a:hover,
-a:focus
-{
-	color: #E44249;
-}
-
 .btn
 {
 	font-family: 'Open Sans', sans-serif;
