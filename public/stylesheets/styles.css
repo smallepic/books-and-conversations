@@ -48,78 +48,6 @@ a:focus
 	text-transform: uppercase;
 }
 
-.btn-facebook
-{
-	color: #ffffff;
-	background-color: #3B5998;
-	border-color: #3B5998;
-}
-
-.btn-facebook:hover,
-.btn-facebook:focus,
-.btn-facebook:active,
-.btn-facebook.active
-{
-	background-color: #314F8E;
-	border-color: #274584;
-}
-
-.btn-facebook.disabled,
-.btn-facebook[disabled],
-fieldset[disabled] .btn-facebook,
-.btn-facebook.disabled:hover,
-.btn-facebook[disabled]:hover,
-fieldset[disabled] .btn-facebook:hover,
-.btn-facebook.disabled:focus,
-.btn-facebook[disabled]:focus,
-fieldset[disabled] .btn-facebook:focus,
-.btn-facebook.disabled:active,
-.btn-facebook[disabled]:active,
-fieldset[disabled] .btn-facebook:active,
-.btn-facebook.disabled.active,
-.btn-facebook[disabled].active,
-fieldset[disabled] .btn-facebook.active
-{
-	background-color: #3B5998;
-	border-color: #3B5998;
-}
-
-.btn-twitter
-{
-	color: #ffffff;
-	background-color: #00ACED;
-	border-color: #00ACED;
-}
-
-.btn-twitter:hover,
-.btn-twitter:focus,
-.btn-twitter:active,
-.btn-twitter.active
-{
-	background-color: #00A2E3;
-	border-color: #0098D9;
-}
-
-.btn-twitter.disabled,
-.btn-twitter[disabled],
-fieldset[disabled] .btn-twitter,
-.btn-twitter.disabled:hover,
-.btn-twitter[disabled]:hover,
-fieldset[disabled] .btn-twitter:hover,
-.btn-twitter.disabled:focus,
-.btn-twitter[disabled]:focus,
-fieldset[disabled] .btn-twitter:focus,
-.btn-twitter.disabled:active,
-.btn-twitter[disabled]:active,
-fieldset[disabled] .btn-twitter:active,
-.btn-twitter.disabled.active,
-.btn-twitter[disabled].active,
-fieldset[disabled] .btn-twitter.active
-{
-	background-color: #00ACED;
-	border-color: #00ACED;
-}
-
 .list-inline > li:first-child
 {
 	padding-left: 0px;
@@ -178,14 +106,22 @@ aside blockquote p
 	font-size: 24px;
 }
 
-aside
+article section
+{
+	margin-top: 120px;
+}
+
+article aside
 {
 	margin-top: 200px;
 }
 
-article section
+@media (max-width: 991px)
 {
-	margin-top: 120px;
+	article aside
+	{
+		margin-top: 120px;
+	}
 }
 
 section p,
@@ -209,11 +145,13 @@ section .lead
 .jumbotron
 {
 	background-color: #000000;
+	border-radius: 0px;
 	color: #FFFFFF;
 	font-size: inherit;
 	font-weight: normal;
 	line-height: inherit;
 	margin-bottom: 0px;
+	padding: 120px 0px 120px 0px;
 }
 
 .jumbotron h1,
@@ -250,21 +188,6 @@ section .lead
 	color: #FFFFFF;
 	font-size: 38px;
 }
-
-@media screen and (min-width: 768px)
-{
-	.jumbotron
-	{
-		padding: 120px 0px 120px 0px;
-		border-radius: 0px;
-	}
-
-	.jumbotron h1
-	{
-		font-size: 63px;
-	}
-}
-
 
 label
 {
