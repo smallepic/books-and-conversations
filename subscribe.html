@@ -1,0 +1,33 @@
+---
+layout: default
+title: Subscribe
+---
+<section class="jumbotron">
+	<div class="container">
+		<div class="row">
+			<form action="/confirm" method="get" class="col-md-6 col-md-offset-3 form-horizontal">
+				<h2>Subscribe for updates by email.</h2>
+				<p>We both hate spam, so let&rsquo;s limit this relationship to updates about <em>Books &amp; Conversations</em> shall we?</p>
+				<div class="form-group">
+					<label for="subscription-name" class="col-md-3 control-label">Name</label>
+					<div class="col-md-7">
+						<input type="text" required="required" placeholder="Name" autofocus="autofocus" class="form-control" id="subscription-name">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="subscription-email" class="col-md-3 control-label">Email</label>
+					<div class="col-md-7">
+						<input type="email" required="required" placeholder="Email" class="form-control" id="subscription-email">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="col-md-offset-3 col-md-10">
+						<button type="submit" class="btn btn-default">Subscribe</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>

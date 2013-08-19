@@ -1,13 +1,20 @@
+---
+title: The Shape of Design
+date: 2013-07-31
+start: 2013-08-19
+end: 2013-08-23
+stylesheet: /stylesheets/the-shape-of-design.css
+---
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>The Shape of Design | Books &amp; Conversations</title>
+		<title>{{ page.title }} | Books &amp; Conversations</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,800|Gentium+Book+Basic:400,400italic" rel="stylesheet" type="text/css">
 		<link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css">
 		<link href="/stylesheets/bootstrap-buttons.css" rel="stylesheet" type="text/css">
 		<link href="/stylesheets/styles.css" rel="stylesheet" type="text/css">
-		<link href="/stylesheets/the-shape-of-design.css" rel="stylesheet" type="text/css">
+		<link href="{{ page.stylesheet }}" rel="stylesheet" type="text/css">
 		<script src="/javascripts/jquery.js"></script>
 		<script src="/javascripts/jquery.anchor.scroll.js"></script>
 		<script src="/javascripts/bootstrap.js"></script>
@@ -193,36 +200,18 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-4">
-	<h4>Published</h4>
-	<p>Wednesday, 31 July, 2013<br>The original discussion took place between Monday, 19 August, 2013 and Friday, 23 August, 2013.<br><a href="/the-shape-of-design">Permalink</a></p>
-</div>
+					{% include footer_published.html %}
 
 					<div class="col-sm-4">
 						<h4>Thanks</h4>
 						<p>Thanks to <a href="https://twitter.com/catisnotpretty">Cat Townsend</a>, <a href="https://twitter.com/sjors">Sjors Timmer</a>, <a href="https://twitter.com/bengfai">Beng-Fai Mok</a>, and <a href="https://twitter.com/geezemo">Jason Lambert</a> for participating in the inaugural <em>Books &amp; Conversations</em>.  And of course, <a href="http://frankchimero.com/">Frank Chimero</a>, whose book this conversation is dedicated to.</p>
 					</div>
 
-					<div class="col-sm-4">
-	<h4>Updates</h4>
-	<p><em>Books &amp; Conversations</em> is on <a href="https://twitter.com/small_epic">Twitter</a> and <a href="https://twitter.com/smallepic">Facebook</a>.  You can also subscribe to updates via <a href="/subscribe">email</a> or <a href="#">RSS</a>.</p>
-</div>
+					{% include footer_updates.html %}
 				</div>
 			</div>
 		</footer>
 
-		<nav>
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<p class="">Copyright &copy; 2013, Made by <a href="https://smallepic.com/">Small Epic</a>.</p>
-				<ul class="list-inline-separated">
-					<li><a href="/about">About</a></li>
-					<li><del>Archive</del></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</nav>
+		{% include footer.html %}
 	</body>
 </html>

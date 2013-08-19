@@ -1,0 +1,32 @@
+a,
+a:hover,
+a:focus
+{
+	color: #E44249;
+}
+
+body > header
+{
+	background-color: #F7F7EC;
+	min-height: 100%;
+}
+
+body > header h1 em
+{
+	color: #333333;
+}
+
+body > header h1 a:hover,
+body > header h1 a:hover em
+{
+	color: #E44249;
+}
+
+body > header h1 a,
+body > header h1 em,
+body > header h1 a:hover,
+body > header h1 a:hover em
+{
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}

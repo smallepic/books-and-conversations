@@ -1,0 +1,4 @@
+name: 'Books &amp; Conversations'
+destination: public
+exclude: ['CNAME', 'config.ru']
+permalink: /:title
