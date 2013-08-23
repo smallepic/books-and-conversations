@@ -9,26 +9,7 @@ stylesheet: /stylesheets/the-shape-of-design.css
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{{ page.title }} | Books &amp; Conversations</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,800|Gentium+Book+Basic:400,400italic" rel="stylesheet" type="text/css">
-		<link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css">
-		<link href="/stylesheets/bootstrap-buttons.css" rel="stylesheet" type="text/css">
-		<link href="/stylesheets/styles.css" rel="stylesheet" type="text/css">
-		<link href="{{ page.stylesheet }}" rel="stylesheet" type="text/css">
-		<script src="/javascripts/jquery.js"></script>
-		<script src="/javascripts/jquery.anchor.scroll.js"></script>
-		<script src="/javascripts/bootstrap.js"></script>
-		<script type="text/javascript" charset="utf-8">
-		jQuery(document).ready(function($)
-		{
-			// Enable smooth scrolling for anchor links.
-			$("a[href^='#']").anchorScroll();
-
-			// Enable Tooltips
-			$("[data-toggle='tooltip']").tooltip();
-		});
-		</script>
+		{% include head.html %}
 	</head>
 
 	<body>
