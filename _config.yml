@@ -4,3 +4,5 @@ destination: public
 exclude: ['CNAME', 'config.ru']
 permalink: /:title
 url: http://booksandconversations.com
+twitter: booksconvos
+facebook: booksandconversations
