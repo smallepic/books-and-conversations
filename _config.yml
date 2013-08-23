@@ -1,4 +1,6 @@
-name: 'Books &amp; Conversations'
+name: 'Books & Conversations'
+description: Thought-provoking books and engaging conversation.
 destination: public
 exclude: ['CNAME', 'config.ru']
 permalink: /:title
+url: http://booksandconversations.com
