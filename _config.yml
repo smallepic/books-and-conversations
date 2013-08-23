@@ -1,5 +1,5 @@
 name: 'Books & Conversations'
-description: Thought-provoking books and engaging conversation.
+description: Engaging conversations about thought-provoking books.
 destination: public
 exclude: ['CNAME', 'config.ru']
 permalink: /:title
