@@ -24,12 +24,22 @@
 <script src="/javascripts/bootstrap.js"></script>
 
 <script type="text/javascript" charset="utf-8">
+	// Execute jQuery
 	jQuery(document).ready(function($)
 	{
-		// Enable smooth scrolling for anchor links.
+		// Enable Smooth Scrolling of Anchors.
 		$("a[href^='#']").anchorScroll();
 
 		// Enable Tooltips
 		$("[data-toggle='tooltip']").tooltip();
 	});
+
+	// Load Google Analytics
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', '{{ site.google_analytics }}', 'booksandconversations.com');
+	ga('send', 'pageview');
 </script>
