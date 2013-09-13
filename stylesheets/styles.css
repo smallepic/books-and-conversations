@@ -81,22 +81,59 @@ h6 small
 blockquote
 {
 	border: none;
-	padding: 0px 0px 0px 0px;
+	color: #999999;
+	padding: 20px 40px 20px 40px;
 }
 
-section blockquote p
+blockquote small
+{
+	font-size: 14px;
+}
+
+aside blockquote
+{
+	padding-top: 0px;
+}
+
+.pull-quote
+{
+	color: #999999;
+}
+
+.pull-quote-lg p
 {
 	font-size: 38px;
 }
 
-section blockquote small
+.pull-quote-lg small
 {
 	font-size: 18px;
 }
 
-aside blockquote p
+.pull-quote-sm p
 {
 	font-size: 24px;
+}
+
+figure
+{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+figure img
+{
+	margin: 0px auto 0px auto;
+}
+
+figure img + figcaption
+{
+	margin-top: 10px;
+}
+
+figure figcaption
+{
+	color: #999999;
 }
 
 article section

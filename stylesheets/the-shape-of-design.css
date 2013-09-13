@@ -5,6 +5,11 @@ a:focus
 	color: #E44249;
 }
 
+.pull-quote
+{
+	color: #E44249;
+}
+
 body > header
 {
 	background-color: #F7F7EC;
