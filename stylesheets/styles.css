@@ -90,14 +90,10 @@ blockquote small
 	font-size: 14px;
 }
 
-aside blockquote
-{
-	padding-top: 0px;
-}
-
 .pull-quote
 {
 	color: #999999;
+	padding: 0px 0px 0px 0px;
 }
 
 .pull-quote-lg p
@@ -136,9 +132,17 @@ figure figcaption
 	color: #999999;
 }
 
-article section
+article header,
+article section,
+article footer
 {
 	margin-top: 120px;
+}
+
+article footer
+{
+	color: #999999;
+	font-style: italic;
 }
 
 article aside
@@ -154,8 +158,8 @@ article aside
 	}
 }
 
-section p,
-section ul
+article p,
+article ul
 {
 	font-size: 21px;
 	margin-bottom: 20px;
@@ -167,7 +171,7 @@ section .avatar
 	text-align: center;
 }
 
-section .lead
+.lead
 {
 	font-size: 32px;
 }
@@ -195,6 +199,8 @@ section .lead
 	font-family: 'Gentium Book Basic', serif;
 	font-size: 38px;
 	font-weight: normal;
+	margin-bottom: 20px;
+	margin-top: 0px;
 	text-transform: none;
 }
 
