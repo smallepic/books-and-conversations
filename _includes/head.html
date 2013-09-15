@@ -1,18 +1,17 @@
 <title>{{ page.title | escape }} | {{ site.name | escape }}</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta content="{{ site.url }}{{ page.url }}" property="og:url">
-<meta content="website" property="og:type">
-<meta content="{{ page.title | escape }} | {{ site.name | escape }}" property="og:title">
-{% if page.description %}<meta content="{{ page.description | escape }}" property="og:description">{% else %}<meta content="{{ site.description | escape }}" property="og:description">{% endif %}
-<!-- TODO: Create Facebook icon. -->
-<meta content="{{ site.url }}{{ page.image }}" property="og:image">
-<meta content="summary" name="twitter:card">
-<meta content="{{ site.twitter }}" name="twitter:creator:id">
-<meta content="{{ page.title | escape }} | {{ site.name | escape }}" name="twitter:title">
-{% if page.description %}<meta content="{{ page.description | escape }}" name="twitter:description">{% else %}<meta content="{{ site.description | escape }}" name="twitter:description">{% endif %}
-<!-- TODO: Create Twitter icon. -->
-<meta content="{{ site.url }}{{ page.image }}" name="twitter:image">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title | escape }} | {{ site.name | escape }}">
+{% if page.description %}<meta property="og:description" content="{{ page.description | escape }}">{% else %}<meta property="og:description" content="{{ site.description | escape }}">{% endif %}
+{% if page.image %}<meta property="og:image" content="{{ site.url }}{{ page.image }}">{% else %}<meta property="og:image" content="{{ site.url }}/images/logo-books-and-conversations.png">{% endif %}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator:id" content="{{ site.twitter }}">
+<meta name="twitter:site:id" content="{{ site.twitter }}">
+<meta name="twitter:title" content="{{ page.title | escape }} | {{ site.name | escape }}">
+{% if page.description %}<meta name="twitter:description" content="{{ page.description | escape }}">{% else %}<meta name="twitter:description" content="{{ site.description | escape }}">{% endif %}
+{% if page.image %}<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">{% else %}<meta name="twitter:image" content="{{ site.url }}/images/logo-books-and-conversations.png">{% endif %}
 
 <link rel="alternate" type="application/rss+xml" title="Books &amp; Conversations" href="{{ site.feedburner }}">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,800|Gentium+Book+Basic:400,400italic" rel="stylesheet" type="text/css">
