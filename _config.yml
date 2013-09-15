@@ -4,7 +4,9 @@ destination: public
 exclude: ['CNAME', 'config.ru']
 permalink: /:title
 url: http://booksandconversations.com
-twitter: https://twitter.com/booksconvos
-facebook: https://www.facebook.com/booksandconversations
-feedburner: http://feeds.smallepic.com/booksandconversations
+facebook: booksandconversations
+facebook_url: https://www.facebook.com/booksandconversations
+feedburner_url: http://feeds.smallepic.com/booksandconversations
 google_analytics: UA-39582779-3
+twitter: booksconvos
+twitter_url: https://twitter.com/booksconvos
