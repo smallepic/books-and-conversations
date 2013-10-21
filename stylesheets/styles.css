@@ -139,6 +139,16 @@ article footer
 	margin-top: 120px;
 }
 
+@media (max-width: 767px)
+{
+	article header,
+	article section,
+	article footer
+	{
+		margin-top: 20px;
+	}
+}
+
 article footer
 {
 	color: #999999;
@@ -314,6 +324,14 @@ body > header h3
 body > footer
 {
 	margin-top: 120px;
+}
+
+@media (max-width: 767px)
+{
+	body > footer
+	{
+		margin-top: 20px;
+	}
 }
 
 body > footer .container
