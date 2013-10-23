@@ -367,3 +367,14 @@ body > nav p
 {
 	margin-bottom: 0px;
 }
+
+.masthead
+{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.masthead h1
+{
+	font-size: 14px;
+}
