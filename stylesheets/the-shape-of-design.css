@@ -41,7 +41,8 @@ body > header h1 a:hover em
 }
 
 .masthead h1,
-.masthead h1 em
+.masthead h1 em,
+.masthead a
 {
 	color: #F7F7EC;
 }

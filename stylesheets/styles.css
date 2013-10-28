@@ -374,7 +374,14 @@ body > nav p
 	padding-top: 10px;
 }
 
-.masthead h1
+.masthead h1,
+.masthead p
 {
 	font-size: 14px;
+	line-height: 14px;
+}
+
+.masthead *[class^="col-"] > *:last-child
+{
+	margin-bottom: 0px;
 }
