@@ -169,6 +169,7 @@ article aside
 }
 
 article p,
+article ol,
 article ul
 {
 	font-size: 21px;

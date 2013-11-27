@@ -1,0 +1,54 @@
+a,
+a:hover,
+a:focus
+{
+	color: #AB1802;
+}
+
+.pull-quote
+{
+	color: #AB1802;
+}
+
+body > header
+{
+	background-color: #F0EDE0;
+}
+
+body > header h1 em
+{
+	color: #333333;
+}
+
+body > header h1 a:hover,
+body > header h1 a:hover em
+{
+	color: #AB1802;
+}
+
+body > header h1 a,
+body > header h1 em,
+body > header h1 a:hover,
+body > header h1 a:hover em
+{
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.masthead
+{
+	background-color: #AB1802;
+}
+
+.masthead h1,
+.masthead h1 em,
+.masthead a
+{
+	color: #F0EDE0;
+}
+
+.masthead h1 a:hover,
+.masthead h1 a:hover em
+{
+	color: #333333;
+}
