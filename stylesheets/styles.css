@@ -369,20 +369,41 @@ body > nav p
 	margin-bottom: 0px;
 }
 
-.masthead
+.masthead *[class^="col-"] > *:last-child
+{
+	margin-bottom: 0px;
+}
+
+.masthead ul
+{
+	margin-top: 5px;
+	text-align: center;
+}
+
+@media (min-width: 1200px)
+{
+	.masthead ul
+	{
+		margin-top: 0px;
+		text-align: right;
+	}
+}
+
+.masthead-sm
 {
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
 
-.masthead h1,
-.masthead p
+.masthead-sm h1,
+.masthead-sm ul
 {
 	font-size: 14px;
-	line-height: 14px;
+	line-height: 1.428571429;
 }
 
-.masthead *[class^="col-"] > *:last-child
+.masthead-lg h1,
+.masthead-lg ul
 {
 	margin-bottom: 0px;
 }
