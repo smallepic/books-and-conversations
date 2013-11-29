@@ -405,5 +405,35 @@ body > nav p
 .masthead-lg h1,
 .masthead-lg ul
 {
-	margin-bottom: 0px;
+	line-height: 36px;
+}
+
+.archive
+{
+	display: block;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.archive:hover
+{
+	background-color: #000000 !important;
+	text-decoration: none;
+}
+
+.archive:hover h2,
+.archive:hover h3
+{
+	color: #FFFFFF !important;
+}
+
+.archive h3
+{
+	color: inherit;
+	font-family: 'Gentium Book Basic', serif;
+	font-weight: normal;
+	margin-top: 10px;
+	text-transform: none;
 }

@@ -1,3 +1,15 @@
 ---
+layout: default
 ---
-{{ site.posts.first.content }}
+{% for post in site.posts %}
+<a href="{{ post.url }}" class="archive" style="background-color: {{ post.background-color }}">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<h2 style="color: {{ post.color }}">{{ post.title | xml_escape }}</h2>
+				<h3 style="color: {{ post.color }}"><em>by</em> {{ post.author }}</h3>
+			</div>
+		</div>
+	</div>
+</a>
+{% endfor %}
