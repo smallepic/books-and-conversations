@@ -1,0 +1,84 @@
+---
+---
+//
+// Amplification Theme
+// --------------------------------------------------
+
+
+// Variables
+// -------------------------
+
+$body-bg: #F0EDE0;
+$text-color: #333333;
+$link-color: #AB1802;
+
+
+// Scaffolding
+// -------------------------
+
+a,
+{
+  color: $link-color;
+
+  &:hover,
+  &:focus
+  {
+    color: $link-color;
+  }
+}
+
+
+// Typography
+// -------------------------
+
+.pull-quote
+{
+  color: $link-color;
+}
+
+
+// Masthead
+// -------------------------
+
+.masthead
+{
+  background-color: $link-color;
+
+  a
+  {
+    color: $body-bg;
+  }
+
+  h1
+  {
+    a
+    {
+      color: $body-bg;
+
+      &:hover,
+      &:focus
+      {
+        color: $text-color;
+
+        em
+        {
+          color: $text-color;
+        }
+      }
+
+      em
+      {
+        color: $body-bg;
+      }
+    }
+  }
+}
+
+
+// Cover
+// -------------------------
+
+.cover
+{
+  background-color: $body-bg;
+}

@@ -1,0 +1,197 @@
+//
+// Posts
+// --------------------------------------------------
+
+
+// Archive
+// -------------------------
+
+.posts
+{
+  padding-bottom: 0;
+  padding-top: 0;
+
+  a
+  {
+    display: block;
+    padding-bottom: $grid-gutter-width;
+    padding-top: $grid-gutter-width;
+    @include transition(all .2s ease-in-out);
+
+    &:hover,
+    &:focus
+    {
+      background-color: #000000 !important;
+      text-decoration: none;
+
+      h2, h3
+      {
+        color: #FFFFFF !important;
+      }
+    }
+
+    h3
+    {
+      font-family: $font-family-base;
+      font-weight: normal;
+      margin-top: 0;
+      text-transform: none;
+    }
+  }
+}
+
+
+// Cover
+// -------------------------
+
+.cover
+{
+  background-color: $gray-lighter;
+  text-align: center;
+
+  h1,
+  h2
+  {
+    margin-top: ($line-height-computed / 2);
+    margin-bottom: ($line-height-computed / 2);
+
+    a
+    {
+      @include transition(all .2s ease-in-out);
+
+      &:hover,
+      &:focus
+      {
+        color: $text-color;
+        text-decoration: none;
+      }
+    }
+  }
+
+  h1
+  {
+    em
+    {
+      color: inherit;
+    }
+  }
+
+  h2
+  {
+    font-family: $font-family-base;
+    font-size: $font-size-h4;
+    font-weight: normal;
+    text-transform: none;
+  }
+
+  h3
+  {
+    font-size: $font-size-h5;
+    margin-top: ($line-height-computed / 2);
+    margin-bottom: ($line-height-computed / 2);
+  }
+
+  p
+  {
+    font-size: $font-size-small;
+  }
+}
+
+/*
+@media (max-width: 767px)
+{
+	body > header h1
+	{
+		font-size: 32px;
+	}
+
+	body > header h2
+	{
+		font-size: 18px;
+	}
+
+	body > header *[class^="col-"] > *:last-child
+	{
+		margin-bottom: 10px;
+	}
+
+	body > header *[class^="col-"]:last-child > *:last-child
+	{
+		margin-bottom: 0px;
+	}
+}
+*/
+
+
+// Post
+// -------------------------
+
+.post
+{
+  footer
+  {
+    color: $text-muted;
+    font-style: italic;
+  }
+
+  /*
+  p,
+  ol,
+  ul
+  {
+    font-size: $font-size-large;
+    margin-bottom: $line-height-computed;
+  }
+  */
+
+  .row + .row
+  {
+    margin-top: $grid-gutter-width * 3;
+  }
+
+  .avatar
+  {
+    text-align: center;
+  }
+
+  p + .avatar
+  {
+    margin-top: $grid-gutter-width * 2;
+  }
+}
+
+
+
+/*
+article header,
+article section,
+article footer
+{
+	margin-top: 120px;
+}
+
+@media (max-width: 767px)
+{
+	article header,
+	article section,
+	article footer
+	{
+		margin-top: 20px;
+	}
+}
+
+
+
+article aside
+{
+	margin-top: 200px;
+}
+
+@media (max-width: 991px)
+{
+	article aside
+	{
+		margin-top: 120px;
+	}
+}
+*/

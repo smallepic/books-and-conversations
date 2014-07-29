@@ -1,0 +1,18 @@
+//
+// Sections
+// --------------------------------------------------
+
+
+body > header,
+body > footer
+{
+  padding-bottom: $grid-gutter-width * 2;
+  padding-top: $grid-gutter-width * 2;
+}
+
+body > section,
+body > article
+{
+  padding-bottom: $grid-gutter-width * 3;
+  padding-top: $grid-gutter-width * 3;
+}

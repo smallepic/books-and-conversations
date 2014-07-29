@@ -1,0 +1,19 @@
+//
+// Padding
+// --------------------------------------------------
+
+
+// Lists
+// -------------------------
+//
+// Remove left and right padding from first and last elements within containers.
+
+.list-inline > li:first-child
+{
+  padding-left: 0;
+}
+
+.list-inline > li:last-child
+{
+  padding-right: 0;
+}

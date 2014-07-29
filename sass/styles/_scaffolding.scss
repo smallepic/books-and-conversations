@@ -1,0 +1,39 @@
+//
+// Scaffolding
+// --------------------------------------------------
+
+
+// Body
+// -------------------------
+
+html,
+body
+{
+  height: 100%;
+}
+
+
+// Figures
+// -------------------------
+
+figure
+{
+  margin-bottom: ($line-height-computed / 2);
+  text-align: center;
+
+  img
+  {
+    margin: 0 auto 0 auto;
+  }
+
+  img + figcaption
+  {
+    margin-top: ($line-height-computed / 2);
+  }
+
+  figcaption
+  {
+    color: $text-muted;
+    font-size: $font-size-small;
+  }
+}

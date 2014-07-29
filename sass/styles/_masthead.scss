@@ -1,0 +1,51 @@
+//
+// Masthead
+// --------------------------------------------------
+
+.masthead
+{
+  h1
+  {
+    font-size: $font-size-h3;
+    text-align: center;
+
+    a
+    {
+      color: $text-color;
+      @include transition(all .2s ease-in-out);
+
+      &:hover,
+      &:focus
+      {
+        color: $gray-light;
+        text-decoration: none;
+      }
+
+      em
+      {
+        color: $gray-light;
+        @include transition(all .2s ease-in-out);
+      }
+    }
+  }
+
+  ul
+  {
+    font-size: $font-size-small;
+    line-height: floor(($font-size-h3 * 1.1));
+    text-align: right;
+  }
+}
+
+.masthead-sm
+{
+  padding-bottom: $padding-base-vertical;
+  padding-top: $padding-base-vertical;
+
+  h1,
+  ul
+  {
+    font-size: $font-size-small;
+    line-height: $line-height-computed;
+  }
+}

@@ -1,0 +1,83 @@
+---
+---
+//
+// The Shape of Design Theme
+// --------------------------------------------------
+
+
+// Variables
+// -------------------------
+
+$body-bg: #F7F7EC;
+$text-color: #333333;
+$link-color: #E44249;
+
+
+// Scaffolding
+// -------------------------
+
+a,
+{
+  color: $link-color;
+
+  &:hover,
+  &:focus
+  {
+    color: $link-color;
+  }
+}
+
+
+// Typography
+// -------------------------
+
+.pull-quote
+{
+  color: $link-color;
+}
+
+
+// Masthead
+// -------------------------
+
+.masthead
+{
+  background-color: $link-color;
+
+  a
+  {
+    color: $body-bg;
+  }
+
+  h1
+  {
+    a
+    {
+      color: $body-bg;
+
+      &:hover,
+      &:focus
+      {
+        color: $text-color;
+
+        em
+        {
+          color: $text-color;
+        }
+      }
+
+      em
+      {
+        color: $body-bg;
+      }
+    }
+  }
+}
+
+// Cover
+// -------------------------
+
+.cover
+{
+  background-color: $body-bg;
+}

@@ -1,0 +1,35 @@
+//
+// Jumbotron
+// --------------------------------------------------
+
+
+.jumbotron
+{
+  margin-bottom: 0;
+  padding: ($grid-gutter-width * 3) 0 ($grid-gutter-width * 3) 0;
+
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6
+  {
+    color: $jumbotron-heading-color;
+    font-family: $font-family-serif;
+    font-weight: normal;
+    text-transform: none;
+  }
+
+  blockquote
+  {
+    color: #FFFFFF;
+    font-size: $font-size-h3;
+
+    p
+    {
+      font-size: $font-size-h3;
+    }
+  }
+
+  label
+  {
+    color: $jumbotron-heading-color;
+  }
+}

@@ -1,7 +1,17 @@
 name: 'Books & Conversations'
+defaults:
+  -
+    scope:
+      path: '_posts'
+      type: post
+    values:
+      type: post
 description: Engaging conversations about thought-provoking books.
 destination: public
-exclude: ['CNAME', 'config.ru']
+exclude: ['CNAME', 'config.ru', 'sass']
+sass:
+  sass_dir: sass
+  style: :compressed
 permalink: /:title
 url: http://booksandconversations.com
 facebook: booksandconversations

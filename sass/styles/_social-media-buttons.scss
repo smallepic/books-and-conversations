@@ -1,0 +1,29 @@
+//
+// Social Media Buttons
+// --------------------------------------------------
+
+
+// Facebook
+// -------------------------
+
+$btn-facebook-color: #FFFFFF;
+$btn-facebook-bg: #3B5998;
+$btn-facebook-border: darken($btn-facebook-bg, 5%);
+
+.btn-facebook
+{
+  @include button-variant($btn-facebook-color, $btn-facebook-bg, $btn-facebook-border);
+}
+
+
+// Twitter
+// -------------------------
+
+$btn-twitter-color: #FFFFFF;
+$btn-twitter-bg: #00ACED;
+$btn-twitter-border: darken($btn-twitter-bg, 5%);
+
+.btn-twitter
+{
+  @include button-variant($btn-twitter-color, $btn-twitter-bg, $btn-twitter-border);
+}
