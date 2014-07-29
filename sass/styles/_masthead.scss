@@ -33,7 +33,15 @@
   {
     font-size: $font-size-small;
     line-height: floor(($font-size-h3 * 1.1));
-    text-align: right;
+    text-align: center;
+  }
+
+  @media (min-width: $screen-lg-min)
+  {
+    ul
+    {
+      text-align: right;
+    }
   }
 }
 

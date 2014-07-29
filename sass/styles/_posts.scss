@@ -30,12 +30,28 @@
       }
     }
 
+    h2
+    {
+      font-size: $font-size-h4;
+
+      @media (min-width: $screen-sm-min)
+      {
+        font-size: $font-size-h2;
+      }
+    }
+
     h3
     {
       font-family: $font-family-base;
+      font-size: $font-size-h5;
       font-weight: normal;
       margin-top: 0;
       text-transform: none;
+
+      @media (min-width: $screen-sm-min)
+      {
+        font-size: $font-size-h3;
+      }
     }
   }
 }
@@ -70,18 +86,30 @@
 
   h1
   {
+    font-size: $font-size-h3;
+
     em
     {
       color: inherit;
+    }
+
+    @media (min-width: $screen-sm-min)
+    {
+      font-size: $font-size-h1;
     }
   }
 
   h2
   {
     font-family: $font-family-base;
-    font-size: $font-size-h4;
+    font-size: $font-size-h5;
     font-weight: normal;
     text-transform: none;
+
+    @media (min-width: $screen-sm-min)
+    {
+      font-size: $font-size-h4;
+    }
   }
 
   h3
@@ -95,32 +123,17 @@
   {
     font-size: $font-size-small;
   }
+
+  *[class^="col-sm"] + *[class^="col-sm"]
+  {
+    margin-top: ($line-height-computed / 2);
+
+    @media (min-width: $screen-sm-min)
+    {
+      margin-top: 0;
+    }
+  }
 }
-
-/*
-@media (max-width: 767px)
-{
-	body > header h1
-	{
-		font-size: 32px;
-	}
-
-	body > header h2
-	{
-		font-size: 18px;
-	}
-
-	body > header *[class^="col-"] > *:last-child
-	{
-		margin-bottom: 10px;
-	}
-
-	body > header *[class^="col-"]:last-child > *:last-child
-	{
-		margin-bottom: 0px;
-	}
-}
-*/
 
 
 // Post
@@ -133,16 +146,6 @@
     color: $text-muted;
     font-style: italic;
   }
-
-  /*
-  p,
-  ol,
-  ul
-  {
-    font-size: $font-size-large;
-    margin-bottom: $line-height-computed;
-  }
-  */
 
   .row + .row
   {
@@ -159,39 +162,3 @@
     margin-top: $grid-gutter-width * 2;
   }
 }
-
-
-
-/*
-article header,
-article section,
-article footer
-{
-	margin-top: 120px;
-}
-
-@media (max-width: 767px)
-{
-	article header,
-	article section,
-	article footer
-	{
-		margin-top: 20px;
-	}
-}
-
-
-
-article aside
-{
-	margin-top: 200px;
-}
-
-@media (max-width: 991px)
-{
-	article aside
-	{
-		margin-top: 120px;
-	}
-}
-*/

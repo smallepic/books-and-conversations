@@ -25,7 +25,21 @@
     padding-bottom: $grid-gutter-width;
     padding-top: $grid-gutter-width;
   }
+
+  *[class^="col-sm"] + *[class^="col-sm"]
+  {
+    margin-top: ($line-height-computed / 2);
+
+    @media (min-width: $screen-sm-min)
+    {
+      margin-top: 0;
+    }
+  }
 }
+
+
+// Copyright
+// -------------------------
 
 .copyright
 {
