@@ -3,9 +3,9 @@ defaults:
   -
     scope:
       path: '_posts'
-      type: post
+      type: posts
     values:
-      type: post
+      type: posts
 description: Engaging conversations about thought-provoking books.
 destination: public
 exclude: ['CNAME', 'config.ru', 'sass']

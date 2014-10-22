@@ -19,7 +19,6 @@ body
 figure
 {
   margin-bottom: ($line-height-computed / 2);
-  text-align: center;
 
   img
   {
@@ -35,5 +34,6 @@ figure
   {
     color: $text-muted;
     font-size: $font-size-small;
+    text-align: center;
   }
 }

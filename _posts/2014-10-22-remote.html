@@ -1,0 +1,735 @@
+---
+title: Remote
+author: Jason Fried &amp; David Heinemeier Hannson
+description: John Ngo hosts a diverse round table made up of Boon Chew, Beng-Fai Mok, Cat Townsend, and Beatrix Coles on Jason Fried&rsquo;s and David Heinemeier Hannson&amp;s latest book about remote working.
+date: 2014-10-22
+start: 2013-11-20
+end: 2014-07-20
+type: posts
+stylesheet: /stylesheets/posts/remote.css
+image: /images/header-remote.gif
+background-color: "#FF0000"
+color: "#FFFFFF"
+---
+<!DOCTYPE html>
+
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+    {% include masthead.html %}
+
+    <header class="cover">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2><em>A conversation about</em></h2>
+            <h1><a href="#introduction">Remote</a></h1>
+            <h2><em>by</em> Jason Fried &amp; David Heinemeier Hannson</h2>
+            <a href="#introduction"><img src="/images/header-remote.png" width="206" height="275"></a>
+          </div>
+        </div>
+
+        <h2><em>with</em></h2>
+
+        <div class="row">
+          <div class="col-sm-2 col-sm-offset-1">
+            <img src="/images/avatar-jngo.jpg" alt="John Ngo" width="100" height="100" class="img-circle">
+            <h3>John Ngo</h3>
+            <p><a href="https://twitter.com/jngo">@jngo</a><br><a href="https://smallepic.com/">smallepic.com</a><br>Code</p>
+          </div>
+
+          <div class="col-sm-2">
+            <img src="https://pbs.twimg.com/profile_images/1187167006/me_square.jpg" alt="Boon Chew" width="100" height="100" class="img-circle">
+            <h3>Boon Chew</h3>
+            <p><a href="https://twitter.com/boonych">@boonych</a><br><a href="http://gluethink.com/">gluethink.com</a><br>User Experience</p>
+          </div>
+
+          <div class="col-sm-2">
+            <img src="/images/avatar-bengfai.jpg" alt="Beng-Fai Mok" width="100" height="100" class="img-circle">
+            <h3>Beng-Fai Mok</h3>
+            <p><a href="https://twitter.com/bengfai">@bengfai</a><br><a href="http://www.mok.io/">mok.io</a><br>Product</p>
+          </div>
+
+          <div class="col-sm-2">
+            <img src="/images/avatar-catisnotpretty.jpg" alt="Cat Townsend" width="100" height="100" class="img-circle">
+            <h3>Cat Townsend</h3>
+            <p><a href="https://twitter.com/catisnotpretty">@catisnotpretty</a><br><a href="http://www.notpretty.net/">notpretty.net</a><br>Design</p>
+          </div>
+
+          <div class="col-sm-2">
+            <img src="https://pbs.twimg.com/profile_images/488244574255468545/QM7-Kvg2_400x400.jpeg" alt="Beatrix Coles" width="100" height="100" class="img-circle">
+            <h3>Beatrix Coles</h3>
+            <p><a href="https://twitter.com/beatrixcoles">@beatrixcoles</a><br><a href="http://www.beatrixcoles.com/">beatrixcoles.com</a><br>Social Media</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <article id="introduction" class="post">
+      <div class="container">
+        <div class="row">
+          <header class="col-md-6 col-md-offset-3">
+            <p class="lead">Jason Fried and David Heinemeier Hannson, partners at 37 Signals, have created a company where more than 70% of their employees are remote.  Now they&rsquo;ve literally written the book on remote working.</p>
+            <p>In a discussion that spans the globe, five millennials working in the digital space discuss the merits and faults of remote working and their experiences collaborating with teams outside of the conventional office.</p>
+          </header>
+        </div>
+
+        <div class="row">
+          <header class="col-md-6 col-md-offset-3">
+            <h3>Introductions</h3>
+          </header>
+        </div>
+
+        <div class="row">
+          <section class="col-md-6 col-md-offset-3">
+            <p class="avatar"><img src="/images/avatar-jngo.jpg" alt="John Ngo" width="60" height="60" class="img-circle" data-toggle="tooltip" title="John"></p>
+            <p>Thanks everyone for taking part. It’rsquo;s a great pleasure to read and chat with such a great group.</p>
+            <p>I’rsquo;ve worked remotely in some form or another for the past five years and while doing so, have been fortunate enough to spend time in cities such as Manila, Tokyo, Hong Kong, London, New York, and Berlin. There have been many interesting challenges along the way, but it’rsquo;s definitely been worth it.</p>
+            <p><strong>So let’rsquo;s start by telling everyone a bit about yourself, what you care about, and why the subject of remote working is interesting to you.</strong></p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/1187167006/me_square.jpg" alt="Boon Chew" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Boon"></p>
+            <p>My name is Boon, and I’rsquo;m an information architect at a large integrated digital agency in London. I was formerly a software developer but I haven’rsquo;t touched code for a long time. I’rsquo;m also an avid sketchnoter.</p>
+            <p>I think remote working is interesting because it seems like a more sustainable way of working. A lot of stress is caused by commuting alone. I rarely have time to grab breakfast in the morning.</p>
+            <p>Also, I used to rent and live with my parents. Now that I own an apartment, I really want to spend more time in it. I also love the freedom of exploring the city and to travel more. London is a great city to do all that.</p>
+            <p class="avatar"><img src="/images/avatar-bengfai.jpg" alt="Beng-Fai Mok" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beng-Fai"></p>
+            <p>I’rsquo;m Beng-Fai. I consider myself a bit of a jack of all trades, working mainly in the startup world. In a past life, I’rsquo;ve worked as a management consultant. In both professions I’rsquo;ve had to work with remote teams and I’rsquo;m curious to hear about everyone’rsquo;s remote working experiences, challenges, and benefits.</p>
+            <p>This should be a fun discussion!</p>
+            <p class="avatar"><img src="/images/avatar-catisnotpretty.jpg" alt="Cat Townsend" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Cat"></p>
+            <p>Howdy!</p>
+            <p>My name is Cat and I’rsquo;m currently trying to build a remote workforce. My business partner and I work primarily via Skype, Basecamp, and Dropbox; and we have a part-time art worker who lives on a farm in Portugal.</p>
+            <p>I’rsquo;m looking for ways to improve the way we work, and tips on how to hire for and induct into a remote workforce.</p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/488244574255468545/QM7-Kvg2_400x400.jpeg" alt="Beatrix Coles" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beatrix"></p>
+            <p>I’rsquo;m Beatrix, I live in Melbourne but am from New Zealand. I have started my own consultancy, ScreenHerd, doing online audience engagement for film projects. I also do social media content and digital copywriting work. I have worked remotely for local and international organisations and currently work on a freelance basis with a number of clients that I only encounter online. I have worked remotely for local and international organisations and currently work on a freelance basis.</p>
+            <p>I’rsquo;m keen to talk about the management of remote work, especially around relationship building and trust. I am very positive about remote work and think it’rsquo;s very exciting and should be more widespread.</p>
+          </section>
+        </div>
+
+        <div class="row">
+          <section class="col-lg-12">
+            <blockquote class="pull-quote pull-quote-lg">
+              <p>I believe the key element to success with remote teams is not trying to replicate the functions of an office with software tools, but mastering the art of communication.</p>
+              <small>John</small>
+            </blockquote>
+          </section>
+        </div>
+
+        <div class="row">
+          <header class="col-md-6 col-md-offset-3">
+            <h3>The Time is Right for Remote Work</h3>
+          </header>
+        </div>
+
+        <div class="row">
+          <section class="col-md-6 col-md-offset-3">
+            <p class="avatar"><img src="/images/avatar-jngo.jpg" alt="John Ngo" width="60" height="60" class="img-circle" data-toggle="tooltip" title="John"></p>
+            <p><strong>The book&rsquo;s opening statement is &ldquo;if you ask people where they go when they really need to get work done, very few will respond &lsquo;the office&rsquo;&rdquo;.   Where is your &lsquo;office&rsquo; and how true is this statement for where you work?</strong></p>
+            <p class="avatar"><img src="/images/avatar-bengfai.jpg" alt="Beng-Fai Mok" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beng-Fai"></p>
+            <p>Great question John.</p>
+            <p>For the past two years, I&rsquo;ve been working predominantly from home. So I&rsquo;d consider my lounge my office.</p>
+            <p>Gone are the days where I&rsquo;ll be interrupted by colleagues asking questions. Instead, I need to fight the urge to check email, social media, or the news.</p>
+            <p>When I really need to get work done, funnily enough, I move to my dining table. I just find a change of environment refocuses me and allows me be more productive. Perhaps the reminder that I need to cook dinner soon makes me work faster!</p>
+            <p class="avatar"><img src="/images/avatar-catisnotpretty.jpg" alt="Cat Townsend" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Cat"></p>
+            <p>Technically, my office is in my lounge room. But as my husband also spends a lot of time working from home, it is more of an office than a lounge.</p>
+            <p>This is where I tend to get my important stuff done.</p>
+            <p>I spend a lot of my week out meeting clients, so when I get back home it is &lsquo;work&rsquo; time.</p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/488244574255468545/QM7-Kvg2_400x400.jpeg" alt="Beatrix Coles" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beatrix"></p>
+            <p>For the last six months, since leaving a very &lsquo;office-y&rsquo; environment, I&rsquo;ve split my time between home, another office (two days a week), and various cafes and co-working spaces.</p>
+            <p>I get the most work done at home and the least (of course) in the &lsquo;traditional&rsquo; office.</p>
+            <p>I really appreciate the flexibility of working remotely, the ability to really seize the times that I&rsquo;m on a roll, and the freedom to&hellip; kick back a little at other times.</p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/1187167006/me_square.jpg" alt="Boon Chew" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Boon"></p>
+            <p>My office has mostly been in buildings with colleagues&mdash;lots of walls, large surfaces, and ample space to walk around and do stuff. I&rsquo;ve had the experience of working from home in the past, which often ends up being the kitchen table or computer desk. At the moment, if I do work from home, the dining table is by far my favourite place to work.</p>
+            <p>However, working in user experience, my work is spread between documentation, thinking/sketching, and collaborating with others. For that purpose, sometimes spending too much on &lsquo;alone time&rsquo; work doesn&rsquo;t yield much value because of the collaborative nature of the work that I do.</p>
+            <p>The way I look at it, my work is essentially an extension of a group or organisation&rsquo;s thinking or problem solving. So my office is really in the space where groups of people come to solve problems. A bit abstract, but I think it helps me orientate where I need to do my work.</p>
+            <p class="avatar"><img src="/images/avatar-jngo.jpg" alt="John Ngo" width="60" height="60" class="img-circle" data-toggle="tooltip" title="John"></p>
+            <p>I&rsquo;ve always been most productive in environments surrounded by people rather than those that are more solitary.  Perhaps it&rsquo;s the peer pressure to avoid being caught browsing social media feeds that allows me to focus on getting work done.</p>
+            <p><strong>So whether it&rsquo;s at home, a co-working space, or an actual office; our definitions of &lsquo;office&rsquo; are highly personal. Remote credits recent technological innovations as one of the key enablers in our freedom to define where we choose to work. I&rsquo;ve worked on projects where technology has allowed remote teams to produce their best work, and others where teams are simply too crippled by information overload to get anything done.</strong></p>
+            <p><strong>What has the reality of remote working been like for you?  What do you think are the requirements for successful remote teams?</strong></p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/488244574255468545/QM7-Kvg2_400x400.jpeg" alt="Beatrix Coles" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beatrix"></p>
+            <p>I&rsquo;ll begin with a short gripe&hellip;</p>
+            <p>Much like in boring, old, regular (inefficient!) offices, I&rsquo;ve noticed that remote working can fall prey to the dictatorship of the manager. I&rsquo;ve been in one remote situation where there wasn&rsquo;t enough trust extended to the remote workers (all contractors) and we each spent a lot of our time chatting to our manager via instant messaging. I&rsquo;ve also been in others where the systems are chosen by one person, rather than suggested by the wider remote group. I understand the need to make decisions but I also think that remote workers tend to adapt their situations very individually and you can get some interesting and useful permutations here.</p>
+            <p>Based on these experiences, if I was setting up a remote team I&rsquo;d use a central hub like Basecamp or Asana and then try and leave it up to the individuals as much as possible. Remote workers can be very good at digging out new tools and apps and I&rsquo;d make sure there was a repository where the team could post links to these. Where possible I think it&rsquo;s better to allow people to work flexibly to task based systems&mdash;the idea of just clocking regular work hours from home seems a bit self defeating to me.</p>
+            <p>I don&rsquo;t think there are any real personal requirements for remote workers apart from being adequately supported by the company. I think it will always be instantly appealing to some and that these people (me!) should have the option where possible.</p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/1187167006/me_square.jpg" alt="Boon Chew" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Boon"></p>
+            <p>I think remote working is suited for delivery work that&rsquo;s scoped and clear. It&rsquo;s not great when you&rsquo;re trying to create stuff as a team and build consensus.</p>
+            <p>Remote teams also favour prepared, motivated, experienced individuals. I think quality tends to suffer without these. I know that I was in a comfort zone producing work remotely previously as a developer but I also struggled with procrastination, lack of context, and poor feedback loops.</p>
+            <p>I agree with Beatrix that managers overtaking can be bad but I&rsquo;m not sure if it&rsquo;s just a deeper symptom of manager/team relationships as opposed to tools. Getting along and working together is a big deal with remote teams, tools being a catalyst rather than a cause I think.</p>
+            <p>That being said, tools do make a difference. The more lightweight, the better. Doodle, Sifter, Google Docs&mdash;they&rsquo;re at the top of my list. At the bottom is Microsoft SharePoint, Microsoft Lync; anything that requires an applet or plugin. Obviously, Skype, Google Hangouts, Google Chat, etc.; are necessary if the team is working closely.</p>
+            <p class="avatar"><img src="/images/avatar-bengfai.jpg" alt="Beng-Fai Mok" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beng-Fai"></p>
+            <p>I definitely agree with the sentiments of both Boon and Beatrix. Management needs to be onboard with remote working and not micromanage. Like the book discusses, in order for remote working to really work, it needs to be embraced by the organisation. Insecure managers that micromanage are not conducive to a remote working policy!</p>
+            <p>However, Boon, I&rsquo;m not so sure I completely agree with your statement:</p>
+            <blockquote>
+              <p>&ldquo;&hellip;it&rsquo;s [remote working] not great when you&rsquo;re trying to create stuff as a team and build consensus.&rdquo;</p>
+            </blockquote>
+            <p>Let me try to explain where I&rsquo;m coming from, and some ways I&rsquo;ve made this exact use case work remotely&hellip;</p>
+            <p>The way I like to build consensus, whether working with clients or working internally is to bring people along a journey. Especially with screen sharing tools and Google Hangouts, I think the need to be in the same room is now obsolete.</p>
+            <p>I recently mocked up a number of wireframes for a website we were building. Instead of journeying across London, the three of us (who all work remotely) basically jumped on a Google Hangout, shared our screens, and away we went. I agree this may be tough in organisations that don&rsquo;t make use of such tools, or who are uncomfortable with the idea of remote working, but provided this is not the case, I really don&rsquo;t see any issue.</p>
+            <p>As for creating stuff as a team&mdash;it really depends on what the type of work is. If you&rsquo;re building a house then of course it&rsquo;s not practical to be working remotely. If, on the other hand you&rsquo;re collaborating on designs, code, mockups, a document, or anything else creative; then yes, I understand how there could be an argument for a few in person meetings, white boarding together, etc. However, I&rsquo;d still say that these really aren&rsquo;t that necessary&mdash;especially with discipline and the right tools.</p>
+            <p>Which takes me back to my original point, so long as the organisation is embracing of a remote working policy, and remote workers are disciplined, I really think remote working is fantastic.</p>
+            <p class="avatar"><img src="/images/avatar-jngo.jpg" alt="John Ngo" width="60" height="60" class="img-circle" data-toggle="tooltip" title="John"></p>
+            <blockquote>
+              <p>&ldquo;If I was setting up a remote team I&rsquo;d use a central hub like Basecamp or Asana and then try and leave it up to the individuals as much as possible.&rdquo;</p>
+            </blockquote>
+            <p>I completely agree with you Beatrix.  I recently worked with a remote team that used a combination of Yammer, Trello, Pivotal Tracker, Wrike, and Campfire.  My strategy for dealing with this mess was simply to ignore everything until the most immediate issues surfaced to the top via email or Skype conversations.</p>
+            <p>Productivity is deeply personal.  My OmniFocus workflow works for me because I&rsquo;ve committed the time to understanding the Getting Things Done philosophy, but might not for someone who prefers the daily ritual of writing out their to-do list.  So it makes little sense to try and shoehorn entire teams into tools that force everyone to work the same way.</p>
+            <p>I agree with Boon that the case for remote work is more easily made for work that is scoped and clear, and less so for work that requires team collaboration.</p>
+            <p>However, I also agree with Beng-Fai in that much of the friction on most of my remote working experiences have been the result of poor written communication.  I&rsquo;ve worked on a project where requirements that weren&rsquo;t clearly communicated would delay the project an entire day due to a twelve hour time difference!</p>
+            <p>Consider how different this discussion might be if we were in the same room as opposed to time shifted across different time zones.  The former perhaps chaotic, spontaneous, and rich in non-verbal cues; the latter, orderly, thoughtful, and articulate.</p>
+            <p>It&rsquo;s not that one is necessarily better than the other, but rather that each form of communication requires uniquely different skill sets.</p>
+            <p>I believe the key element to success with remote teams is not trying to replicate the functions of an office with software tools, but mastering the art of communication.</p>
+            <p>No magical piece of technology can make you better at that.</p>
+            <p class="avatar"><img src="/images/avatar-bengfai.jpg" alt="Beng-Fai Mok" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beng-Fai"></p>
+            <blockquote>
+              <p>&ldquo;I believe the key element to success with remote teams is not trying to replicate the functions of an office with software tools, but mastering the art of communication.&rdquo;</p>
+            </blockquote>
+            <p>Couldn&rsquo;t agree more John. And you&rsquo;re completely right about there being no magical piece of technology.</p>
+          </section>
+        </div>
+
+        <div class="row">
+          <header class="col-md-6 col-md-offset-3">
+            <h3>Dealing With Excuses</h3>
+          </header>
+        </div>
+
+        <div class="row">
+          <aside class="col-md-3">
+            <blockquote class="pull-quote pull-quote-sm">
+              <p>The way I deal with micromanagement is to over communicate. If you over communicate, you&rsquo;re constantly showing that you know what you&rsquo;re doing, you&rsquo;re constantly showing results.</p>
+              <small>Beng-Fai</small>
+            </blockquote>
+          </aside>
+
+          <section class="col-md-6">
+            <p class="avatar"><img src="/images/avatar-jngo.jpg" alt="John Ngo" width="60" height="60" class="img-circle" data-toggle="tooltip" title="John"></p>
+            <p><strong>Micromanagement has come up several times in our discussion. The book asserts that micromanagement stems from a lack of trust in remote workers.</strong></p>
+            <p><strong>Do you agree?  What strategies have you found effective in dealing with micromanagement?</strong></p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/488244574255468545/QM7-Kvg2_400x400.jpeg" alt="Beatrix Coles" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beatrix"></p>
+            <p>I think that people who tend towards this kind of behaviour will probably indulge in it whether the work is remote or centralised. On instant messaging or email it just seems especially pronounced.</p>
+            <p>I don&rsquo;t have any great strategies for dealing with this&mdash;I do have an especially low tolerance for it, and this kind of behaviour tends to be a bit of a deal breaker for me.</p>
+            <p class="avatar"><img src="/images/avatar-bengfai.jpg" alt="Beng-Fai Mok" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beng-Fai"></p>
+            <p>I think micromanagement, irrespective of it being remote or in person is based on a lack of trust. From the onset, some managers are happy to trust and give the benefit of the doubt more than other managers.</p>
+            <p>The way I deal with micromanagement is to over communicate. If you over communicate, you&rsquo;re constantly showing that you know what you&rsquo;re doing, you&rsquo;re constantly showing results. You eventually win that person&rsquo;s trust and stop the micromanagement. Really, it&rsquo;s the results that matter.</p>
+            <p>Of course, if you&rsquo;re not showing results and you&rsquo;re being micromanaged, then perhaps you need to ask yourself if the problem is your work and not the person managing you!</p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/1187167006/me_square.jpg" alt="Boon Chew" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Boon"></p>
+            <p>I think micromanagement can be down to culture as well as working styles. It doesn&rsquo;t necessarily have to relate to remote work at all, although communication will relatively suffer. It also gets worse if the work is rushed, when there&rsquo;s poor planning, or lack of clarity within the team.</p>
+            <p>I&rsquo;m with Beatrix here that I can&rsquo;t deal well with a culture of low trust and micromanagement. I tend to fare better in environments where it&rsquo;s ok to fail as long as there&rsquo;s learning and where people look out for each other.</p>
+            <p>That&rsquo;s not a remote thing. It&rsquo;s a relationship thing.</p>
+          </section>
+        </div>
+
+        <div class="row">
+          <section class="col-lg-12">
+            <blockquote class="pull-quote pull-quote-lg">
+              <p>Despite my wanting it to work real bad, I haven&rsquo;t actually been in a situation where remote working has worked seamlessly.</p>
+              <p>[&hellip;]</p>
+              <p>But I can&rsquo;t remember working in a normal office being painless either, so maybe the fault lies elsewhere.</p>
+              <small>Cat</small>
+            </blockquote>
+          </section>
+        </div>
+
+        <div class="row">
+          <header class="col-md-6 col-md-offset-3">
+            <h3>How to Collaborate Remotely</h3>
+          </header>
+        </div>
+
+        <div class="row">
+          <section class="col-md-6 col-md-offset-3">
+            <p class="avatar"><img src="/images/avatar-jngo.jpg" alt="John Ngo" width="60" height="60" class="img-circle" data-toggle="tooltip" title="John"></p>
+            <p><strong>One of the book&rsquo;s essays is dedicated to the importance of having a virtual water cooler as &lsquo;a quality waste of time with your coworkers&rsquo;.</strong></p>
+            <p><strong>When I first moved to London, I found Twitter invaluable for stimulating conversation that was absent from colleagues in Melbourne who had already finished work.</strong></p>
+            <p><strong>What forms has the virtual water cooler taken for you when working remotely?</strong></p>
+            <p class="avatar"><img src="/images/avatar-bengfai.jpg" alt="Beng-Fai Mok" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beng-Fai"></p>
+            <p>Considering I work mainly alone, I&rsquo;m not sure I have a virtual water cooler where I chat with colleagues. The colleagues don&rsquo;t exist!</p>
+            <p>However, to break up my day, I&rsquo;ll sometimes chat on Skype or Google Chat with friends and past colleagues. If they&rsquo;re busy they&rsquo;ll let me know or won&rsquo;t respond, which is fine. Other times, they&rsquo;ll be bored and in need of a chat too. In fact, I was pinged by a friend in Sydney yesterday and we had a great chat (my lunch, his baby having woken him up).</p>
+            <p>Many a great (and bad) idea have sprung from such impromptu chat sessions!</p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/488244574255468545/QM7-Kvg2_400x400.jpeg" alt="Beatrix Coles" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beatrix"></p>
+            <p>Completely identify with both&mdash;I&rsquo;m prone to dipping into Twitter and Google Chat. I&rsquo;ve also worked in remote and real life workplaces that have used Yammer as a &lsquo;virtual water cooler&rsquo;&mdash;I&rsquo;ve found this tends to feel really unnatural and fail spectacularly.</p>
+            <p class="avatar"><img src="/images/avatar-bengfai.jpg" alt="Beng-Fai Mok" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beng-Fai"></p>
+            <p>I know I may be jumping forward (or backwards) with this point but I&rsquo;m still keen to get everyone&rsquo;s opinion about this.</p>
+            <p><strong>We&rsquo;ve spoken much about working remotely in general, but it does feel as if we&rsquo;re speaking from the perspective of the remote worker. But what about if we turn that around?</strong></p>
+            <p><strong>Have you been in situations where you&rsquo;re not the remote worker and have had to work with others remotely? If so, does the dynamic change much?</strong></p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/488244574255468545/QM7-Kvg2_400x400.jpeg" alt="Beatrix Coles" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beatrix"></p>
+            <p>I&rsquo;ve worked for under resourced and overwhelmed arts organisations where some contract positions have worked remotely due to lack of space.  These positions probably weren&rsquo;t properly supported and it&rsquo;s fair to say there was probably a little jealousy from those of us stuck in a stressful office situation.</p>
+            <p>So, not great circumstances for remote work and more of a stopgap for organisations that needed to expand and contract quickly.</p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/1187167006/me_square.jpg" alt="Boon Chew" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Boon"></p>
+            <p>I&rsquo;ve been in two organisations where remote working was accepted.</p>
+            <p>The first was a startup where a few of us worked in the office and our boss was only occasionally around. Things definitely moved along faster when he was around, but this made things a bit stressful as we would go through ups and downs of a-lot-of-work and then not-so-much-but-still-a-lot-of-work. I think trust and space had strong influences over expected progress.</p>
+            <p>The second was a large global company where remote work was accepted, especially with colleagues living out of the city. Except that you would spend almost all your time on conference calls because thats where people &lsquo;met up&rsquo; to do work. You would have to divide your time between actual work time, planning time, and conference time&mdash;which I think is quite stressful as not everyone works that way. I think this is a byproduct of companies where progress isn&rsquo;t always visible by everyone at the same time (i.e. on Github, Google Drive, project management tools, shared workspaces, etc.).</p>
+            <p>Ultimately, I think companies who haven&rsquo;t successfully solved the shared virtual workspace problem will end up with inefficiencies.</p>
+            <p class="avatar"><img src="/images/avatar-catisnotpretty.jpg" alt="Cat Townsend" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Cat"></p>
+            <p>Despite my wanting it to work real bad, I haven&rsquo;t actually been in a situation where remote working has worked seamlessly.</p>
+            <p>In my experience it depends enormously on people&mdash;communicating, following through, being committed. On both sides of the equation.</p>
+            <p>I&rsquo;ve had many an experience working with remote workers where things just haven&rsquo;t been delivered when they were supposed to be.</p>
+            <p>When things go wrong it&rsquo;s easy to blame not being able to see the person, what they&rsquo;re working on, or if they&rsquo;re working at all!</p>
+            <p>But I can&rsquo;t remember working in a normal office being painless either, so maybe the fault lies elsewhere.</p>
+            <p><em>Finger pointed squarely at myself.</em></p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/488244574255468545/QM7-Kvg2_400x400.jpeg" alt="Beatrix Coles" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beatrix"></p>
+            <p>This brings me back to my overall issue with the book. I appreciate relentless optimism as much as the next person, but I don&rsquo;t think there were any concrete solutions offered to the issues that remote working can raise.</p>
+            <p>On one hand, I understand if a company has a negative or difficult culture, there&rsquo;s no quick fix. It just seemed to me that Remote jumped from &lsquo;great ideas to get started&rsquo; to &lsquo;how great things will be once it all works&rsquo; with no real ideas as to how the difficult in-between could be tackled.</p>
+            <p class="avatar"><img src="/images/avatar-catisnotpretty.jpg" alt="Cat Townsend" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Cat"></p>
+            <p>You&rsquo;re right. It&rsquo;s a book full of (compelling) arguments as to why remote working is good, but with very little practical guidance as to how to make it a reality.</p>
+            <p>The gist of it is that if you have a good team it doesn&rsquo;t matter where people work. So maybe they should be sharing their secrets on how they built such a good team in the first place.</p>
+            <p class="avatar"><img src="/images/avatar-jngo.jpg" alt="John Ngo" width="60" height="60" class="img-circle" data-toggle="tooltip" title="John"></p>
+            <p>I&rsquo;m inclined to think that the book is missing practical advice on transitioning to remote working because 37 Signals has almost always been a remote working team. David Heinemeier Hansson collaborated with Jason Fried for years before moving to Chicago to join 37 Signals.</p>
+            <p>In the way that organisations with a strong culture are usually built this way early on, I&rsquo;d say the same is true for highly productive remote teams&mdash;think Github, Auttomatic, Treehouse; and of course, 37 Signals.</p>
+            <p>You might disagree, but I don&rsquo;t think it&rsquo;s any coincidence that the best remote teams are skewed towards people who inherently have a high level of technology literacy as a requirement for their work (i.e. developers, designers, etc.).</p>
+            <p>So in that vein, perhaps we can draw inspiration on how to recruit the best teams from a movement that has been collaborating, producing, and shipping for as long as the Internet has been around&mdash;the open source community.</p>
+          </section>
+        </div>
+
+        <div class="row">
+          <header class="col-md-6 col-md-offset-3">
+            <h3>Hiring and Keeping the Best</h3>
+          </header>
+        </div>
+
+        <div class="row">
+          <section class="col-md-6 col-md-offset-3">
+            <p class="avatar"><img src="/images/avatar-jngo.jpg" alt="John Ngo" width="60" height="60" class="img-circle" data-toggle="tooltip" title="John"></p>
+            <p><strong>The book describes &ldquo;riddles and quizzes and other parlour tricks&rdquo;, as unreliable measures for identifying the best and brightest candidates. Have you ever been in an interview that involved a similar sort of practical challenge? How did you fare? How did the experience make you feel?</strong></p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/1187167006/me_square.jpg" alt="Boon Chew" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Boon"></p>
+            <p>I think its fair to use a test to evaluate some basic stuff, but its meant to weed out poor candidates rather than identify the best and brightest. God forbid that a test evaluates real expertise. Otherwise it seems the organisation isn&rsquo;t really doing their job to get to know the candidate.</p>
+            <p class="avatar"><img src="/images/avatar-bengfai.jpg" alt="Beng-Fai Mok" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beng-Fai"></p>
+            <p>I think Google are (or were) famous for these brain teaser type of questions, but how funny that they now admit that all it does is make the interviewer feel smart:</p>
+            <blockquote>
+              <p>&ldquo;On the hiring side, we found that brainteasers are a complete waste of time. How many golf balls can you fit into an airplane? How many gas stations in Manhattan? A complete waste of time. They don&rsquo;t predict anything. They serve primarily to make the interviewer feel smart.&quot;</p>
+              <small><cite title="In Head-Hunting, Big Data May Not Be Such a Big Deal"><a href="http://www.nytimes.com/2013/06/20/business/in-head-hunting-big-data-may-not-be-such-a-big-deal.html?pagewanted=all&_r=0">In Head-Hunting, Big Data May Not Be Such a Big Deal</a></cite></small>
+            </blockquote>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/488244574255468545/QM7-Kvg2_400x400.jpeg" alt="Beatrix Coles" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beatrix"></p>
+            <p>I&rsquo;ve done the whole &lsquo;build a tower to support a marshmallow using these straws&rsquo; in a group interview situation which was kinda fun, kinda painful. But for remote work, I think the emphasis should be on why you want to work remotely, whether you enjoy it, and I do agree that email management (rather than actually &lsquo;writing&rsquo;, which is emphasised in the book) is really important for most remote roles.</p>
+            <p class="avatar"><img src="/images/avatar-catisnotpretty.jpg" alt="Cat Townsend" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Cat"></p>
+            <p>I&rsquo;ve all but erased my memories of applying for army officer training&mdash;two days of poking, pushups, brain teasers, essays, panels&mdash;it might bring out the best in some people, but not in me.</p>
+            <p>I like the idea that you test people on a real (but small) project first, but it is something I have struggled to do in the past.</p>
+            <p>I generally end up working (or not working) with people based upon how the first project goes. But in a small company, if we have to get someone else on board it is generally because we need to get something done now and I don&rsquo;t have a dozen other people to pick up the pieces if it all goes wrong. So the temptation is always to choose someone based upon what they tell me they can do, their availability, and throw them straight into the deep end.</p>
+            <p>Not a tactic that has always worked well for me!</p>
+            <p class="avatar"><img src="/images/avatar-jngo.jpg" alt="John Ngo" width="60" height="60" class="img-circle" data-toggle="tooltip" title="John"></p>
+            <p><strong>We&rsquo;ve touched on how remote work is better suited to motivated, disciplined, and articulate communicators. This leads me to wonder whether there&rsquo;s an ideal personality type that&rsquo;s well suited to remote working.</strong></p>
+            <p><strong>Studies have shown that there is a <a href="http://dl.acm.org/citation.cfm?id=2088883.2088901&coll=DL&dl=GUIDE&CFID=519464661&CFTOKEN=29871392">high prevalence of ISTJ (and more recently ESTJ) Myers-Briggs Type Indicator (MBTI) personality types amongst software engineering teams</a>, so perhaps there is also a personality type that is well suited for remote workers. What do you think? Are there specific personality traits that make for a highly effective remote worker?</strong></p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/488244574255468545/QM7-Kvg2_400x400.jpeg" alt="Beatrix Coles" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beatrix"></p>
+            <p>I think that there are specific personality traits that make you less inclined to work in a conventional office environment!</p>
+            <p>I do believe that the skill set that helps with remote working can be picked up (if not taught) and develops the more you do it. I&rsquo;ve certainly got a lot better at communicating within a team, at remembering to document milestones, and at updating in general.</p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/1187167006/me_square.jpg" alt="Boon Chew" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Boon"></p>
+            <p>I think these things can be learnt and that people will adapt. Personality traits are just that&mdash;traits. Remote working can happen in many ways, that&rsquo;s what makes it valuable. For example, if someone enjoys being with people at work, then co-working spaces may be ideal. If not, working from home might suit the less socially-inclined.</p>
+            <p class="avatar"><img src="/images/avatar-catisnotpretty.jpg" alt="Cat Townsend" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Cat"></p>
+            <p>As Beatrix and Boon have alluded to&mdash;it&rsquo;s part nature, part nurture. There&rsquo;s always going to be a learning curve, just depends how steep it is.</p>
+            <p>But then there is a learning curve for any work environment a person enters, so remote working is no different there.</p>
+            <p class="avatar"><img src="/images/avatar-bengfai.jpg" alt="Beng-Fai Mok" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beng-Fai"></p>
+            <p>I can&rsquo;t say I disagree with anything that&rsquo;s been said. Above personality, I&rsquo;d argue being disciplined and over-communicating are the keys to effective remote work.</p>
+          </section>
+        </div>
+
+        <div class="row">
+          <header class="col-md-6 col-md-offset-3">
+            <h3>Conclusion</h3>
+          </header>
+        </div>
+
+        <div class="row">
+          <section class="col-md-6 col-md-offset-3">
+            <p class="avatar"><img src="/images/avatar-jngo.jpg" alt="John Ngo" width="60" height="60" class="img-circle" data-toggle="tooltip" title="John"></p>
+            <p>So wrapping up, let&rsquo;s talk about tools, a la <a href="http://usesthis.com/">The Setup</a>.</p>
+            <p><strong>What hardware do you use?</strong></p>
+            <p>As a self-confessed Apple geek, their devices are not surprisingly an invaluable part of my toolchain.</p>
+            <p>The bulk of my time is spent in front of a 2013 13&rdquo; MacBook Air, which is seriously the best computer I&rsquo;ve ever owned.  When it&rsquo;s time for a change of scenery, there&rsquo;s no better companion for a walk down to the local caf&eacute; than the iPad Mini for reading, writing, and email intensive tasks.  Though on it&rsquo;s last legs performance wise, my iPhone 4 is always with me and continues to serve me well (albeit slowly) even after four years.</p>
+            <p><strong>And what software?</strong></p>
+            <p>Twitter has been responsible for so many incredible remote connections and friendships made over the years.  When it comes to voice or video calls, Skype is effectively the de facto standard; accompanied by Slack which has replaced Campfire as the group chat tool of choice.  I love Basecamp for it&rsquo;s simplicity, and no fuss approach to project communications (in fact, Basecamp hosts all our Books &amp; Conversations discussions). Startups are forever trying to &lsquo;disrupt&rsquo; email, but if one takes the time to tame the savage beast, email is the most powerful tool of the lot.  Git and GitHub are easy choices when it comes to collaborating with code.</p>
+            <p>What hardware and software is indispensable to your remote work?</p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/488244574255468545/QM7-Kvg2_400x400.jpeg" alt="Beatrix Coles" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beatrix"></p>
+            <p>I recently decamped from a home office to a shared office space. It&rsquo;s been a great move in terms of headspace and keeping more sensible work hours.</p>
+            <p><strong>What hardware do you use?</strong></p>
+            <p>At my office I have a desktop computer (a Mac Mini) and a laptop for working from client offices, cafes and home. Currently I use a ChromeBook, which was a bit of an experiment but has proven to be an excellent second computer, since I work almost exclusively from Google Drive. I am planning an upgrade to a new MacBook Air shortly. I don&rsquo;t use a tablet but am very devoted to my HTC One and my Kindle.</p>
+            <p><strong>And what software?</strong></p>
+            <p>Email is definitely my number one form of communication and I spend a lot of time with Gmail. Twitter is my favourite social network and a surprisingly good spot for work leads, but as a freelancer, I also make use of LinkedIn. I use Harvest for time tracking, which is pretty good&mdash;I still think there&rsquo;s a gap in the market for a really good project/invoicing/time tracking tool for teams of one.</p>
+            <p>But this is all supported by my notebook. I have one on the go all the time, and it&rsquo;s where all my to do lists and meeting notes live and I would be absolutely lost without it! They&rsquo;re usually a black ruled Moleskine, but I&rsquo;ve been experimenting with cheaper options. They&rsquo;re never as good.</p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/1187167006/me_square.jpg" alt="Boon Chew" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Boon"></p>
+            <p><strong>What hardware do you use?</strong></p>
+            <p>I don&rsquo;t remote work that much, but when I do, the setup that works best for me is a 2012 15&rdquo; MacBook Pro, which does the job, although I keep wanting one with a retina display. The iPhone 5S is a strong companion for checking things on the go, the only downside is the battery life suffers.</p>
+            <p><strong>And what software?</strong></p>
+            <p>For teamwork, I use the company supported Box, which is superb; WeTransfer for sending large files; and a shared studio server, which I occasionally VPN into from home. The team has made extensive use of Google Sheets for planning, tracking, and audits in this last project; and I see it becoming a staple tool of mine. The team also uses Skype, though it&rsquo;s not officially supported; and Microsoft Lync, which is.</p>
+            <p>If I were to do this again, I would be a lot more diligent about setting rules and structure around folders as we&rsquo;ve had files being stored all over the place.</p>
+            <p>All in all, this works well for a team that occasionally has members working from home, working on shared files, managing schedules collaboratively and needing a central location for project assets and files.</p>
+            <p class="avatar"><img src="/images/avatar-catisnotpretty.jpg" alt="Cat Townsend" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Cat"></p>
+            <p>Whether working with clients or colleagues all of my work is done remotely, and this year has seen me spend a good amount of time working from cafes and park benches all around the world.</p>
+            <p><strong>What hardware do you use?</strong></p>
+            <p>Most work is done from my 2013 11&rdquo; Macbook Air and iPhone 4S just for the sheer portability, but I have a 2012 15&rdquo; Macbook Pro and Cinema Display which I use at home or if I need more screen real estate.</p>
+            <p><strong>And what software?</strong></p>
+            <p>When it comes to software it&rsquo;s a combination of Dropbox and iCloud that keeps me synced and connected to other people and devices.</p>
+            <p>The next most crucial service is Skype and I&rsquo;m always logged in to pick up group chat or video calls. Email definitely has it&rsquo;s place and gets used far too much, but video calls via Skype are definitely my favourite&mdash;quicker and easier to convey meaning and make sure we are on the same wavelength.</p>
+            <p>In addition to these basics, I&rsquo;ve tried various time and project management apps such as Basecamp, Action Method, Solo, Asana, and Nozbe. All have their good and bad points and have served a purpose. But the one that has stuck with me is Nozbe. It&rsquo;s simple, works across all my devices, I can use it offline, syncs to my calendar, and I can collaborate with team members.</p>
+            <p>As with Boon, my biggest bugbear about collaborating remotely is probably file discipline. But then I&rsquo;m a bit obsessive compulsive about these things, and would probably be just as frustrated if I was sitting next to my colleagues.</p>
+            <p class="avatar"><img src="/images/avatar-bengfai.jpg" alt="Beng-Fai Mok" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beng-Fai"></p>
+            <p><strong>What hardware do you use?</strong></p>
+            <p>I still use my trusty 2009 13&rdquo; MacBook Pro for all my computing. It&rsquo;s a warrior. The battery is garbage (and has been for the past three years), but after a few custom mods (SSD and RAM), it still runs pretty well. Having said that, I have recently procured a brand new 13&rdquo; MacBook Air, which I am yet to make the most of as I haven&rsquo;t had time to properly set it up!</p>
+            <p>At home I hook these up to an external Dell monitor and keyboard and mouse. Returns me to the desktop days!</p>
+            <p>I also have an iPad 2 and iPhone 3GS (noticing a theme?), but I don&rsquo;t really use those for work.</p>
+            <p><strong>And what software?</strong></p>
+            <p>I tend to use Chrome as my browser of choice, Gmail for emails, and Google Calendar for my calendar. For file sharing it&rsquo;s Dropbox and Google Drive, Sublime Text 2 for coding, and Bitbucket to store my code. We use Google Hangouts and Skype to do video calls, depending upon who is on the call.</p>
+            <p>Would it be a crime if I admit that I have VMware installed on my Mac running Windows Vista and Microsoft Office? For presentation work, I still use Powerpoint; and for spreadsheet work, I try and keep to Google Sheets, but I&rsquo;m just much more efficient using Excel&hellip; harking back to my consulting days.</p>
+          </section>
+        </div>
+
+        <div class="row">
+          <section class="col-md-12">
+            <figure class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>John Ngo</th>
+                    <th>Boon Chew</th>
+                    <th>Beng-Fai Mok</th>
+                    <th>Cat Townsend</th>
+                    <th>Beatrix Coles</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th colspan="5">
+                      <h4>Hardware</h4>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>13&rdquo; MacBook Air</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>15&rdquo; MacBook Pro</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>13&rdquo; MacBook Pro</li>
+                        <li>13&rdquo; MacBook Air</li>
+                        <li>21&rdquo; Dell Display</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>13&rdquo; MacBook Air</li>
+                        <li>15&rdquo; MacBook Pro</li>
+                        <li>24&rdquo; Apple Cinema Display</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>13&rdquo; MacBook Pro</li>
+                        <li>11.6&rdquo; Samsung ChromeBook</li>
+                        <li>Mac Mini</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>iPhone 4</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>iPhone 5S</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>iPhone 4S</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>iPhone 3GS</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>HTC One</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>iPad Mini</li>
+                      </ul>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Kindle Touch</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th colspan="5">
+                      <h4>Software</h4>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Skype</li>
+                        <li>Slack</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Skype</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Skype</li>
+                        <li>Gmail</li>
+                        <li>Google Hangouts</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Skype</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Gmail</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Basecamp</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Microsoft Lync</li>
+                      </ul>
+                    </td>
+                    <td></td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Nozbe</li>
+                      </ul>
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Github</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Box</li>
+                        <li>Google Drive</li>
+                        <li>WeTransfer</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Bitbucket</li>
+                        <li>Dropbox</li>
+                        <li>Google Drive</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Dropbox</li>
+                        <li>iCloud</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Google Drive</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Twitter</li>
+                      </ul>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                      <ul class="list-unstyled">
+                        <li>Twitter</li>
+                        <li>LinkedIn</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <figcaption><a href="http://usesthis.com/">The Setup</a>, Remote Working Edition</figcaption>
+            </figure>
+          </section>
+        </div>
+
+        <div class="row">
+          <section class="col-md-6 col-md-offset-3">
+            <p class="avatar"><img src="/images/avatar-bengfai.jpg" alt="Beng-Fai Mok" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beng-Fai"></p>
+            <p><strong>Does anyone have any remote working horror stories to share?</strong></p>
+            <p class="avatar"><img src="/images/avatar-catisnotpretty.jpg" alt="Cat Townsend" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Cat"></p>
+            <p>I can think of a few times when remote working has been difficult. Sometimes because of miscommunication, but most times because of technology (or more specifically Internet access) failures!</p>
+            <p>My current working holiday has been less than successful with impossibly slow Internet access not allowing me to download or send emails.</p>
+            <p>Fingers crossed this gets to you!</p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/488244574255468545/QM7-Kvg2_400x400.jpeg" alt="Beatrix Coles" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Beatrix"></p>
+            <p>The micromanagement I experienced on my first remote working outing was probably the worst experience I&rsquo;ve had. A big learning curve I personally had to deal with was my first attempt at taking my work overseas. My original plan was to work consistently across the time I was away. Not effective. Next time I&rsquo;ll actually book holiday time into the holiday.</p>
+            <p class="avatar"><img src="https://pbs.twimg.com/profile_images/1187167006/me_square.jpg" alt="Boon Chew" width="60" height="60" class="img-circle" data-toggle="tooltip" title="Boon"></p>
+            <p>I hated being on the other side of remote working when I was in the office and my colleague was working from home and leading the project. I didn&rsquo;t enjoy desktop sharing and conference calls, particularly because it takes much more effort and communicates so little. It made me miss the effectiveness of good design studio methodology. When you&rsquo;ve found a way of working well, it&rsquo;s hard to go back.</p>
+            <p class="avatar"><img src="/images/avatar-jngo.jpg" alt="John Ngo" width="60" height="60" class="img-circle" data-toggle="tooltip" title="John"></p>
+            <p>As much as I believe in remote working, I&rsquo;ve yet to find the team, project, tools, and environment conducive to producing my best work.</p>
+            <p>Most of my horror stories tend to be the result of communication&mdash;too little or too much of it.  I recently took it upon myself to perform some maintenance tasks for a home page, during which time there were discussions with the product manager on what I should focus on next.  The next day I woke up to more than ten task notifications, three of which included: &lsquo;update home page&rsquo;, &lsquo;deploy home page to staging server&rsquo;, &lsquo;deploy home page to production&rsquo;.  I often spent more time sifting through horribly verbose task lists and thinking about what I needed to do than actually doing it.</p>
+            <p>Horror stories aside, it&rsquo;s worth taking a moment to reflect on how amazing it is that right now I&rsquo;m here in Berlin, Boon&rsquo;s in Hanoi, Beatrix&rsquo;s in Melbourne, Cat&rsquo;s in Fort Lauderdale, and Being-Fai&rsquo;s in London.</p>
+          </section>
+        </div>
+
+        <div class="row">
+          <section class="col-md-10 col-md-offset-1">
+            <figure>
+              <div id="google-map"></div>
+              <figcaption>In the sprit of remote working; John, Boon, Beng-Fai, Cat, and Beatrix were each in a different city during part of the discussion.</figcaption>
+            </figure>
+          </section>
+        </div>
+
+        <div class="row">
+          <footer class="col-md-6 col-md-offset-3">
+            <hr>
+            <p><a href="http://37signals.com/remote/">Remote</a> is widely available in hardcover, paperback, and ebook formats.</p>
+            <p>You can find <a href="https://twitter.com/jasonfried">Jason Fried</a> and <a href="https://twitter.com/dhh">David Heinemeier Hannson </a> on Twitter.</p>
+            <hr>
+          </footer>
+        </div>
+
+        {% include footnote_subscribe.html %}
+      </div>
+    </article>
+
+    <footer class="call-to-actions">
+      <div class="container">
+        <div class="row">
+          {% include footer_published.html %}
+
+          <div class="col-sm-4">
+            <h4>Thanks</h4>
+            <p>A huge thanks to <a href="https://twitter.com/boonych">Boon Chew</a>, <a href="https://twitter.com/bengfai">Beng-Fai Mok</a>, <a href="https://twitter.com/catisnotpretty">Cat Townsend</a>, and <a href="https://twitter.com/beatrixcoles">Beatrix Coles</a>; for their patience and invaluable contributions to such a great discussion.</p>
+          </div>
+
+          {% include footer_subscribe.html %}
+        </div>
+      </div>
+    </footer>
+
+    {% include copyright.html %}
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script>
+      function initialize()
+      {
+        var cities =
+        [
+          ['London, England', 51.5073510, -0.1277580],
+          ['Berlin, Germany', 52.5200070, 13.4049540],
+          ['Hanoi, Vietnam', 21.0333330, 105.8500000],
+          ['Melbourne, Australia', -37.8141070, 144.9632800],
+          ['Fort Lauderdale, United States', 26.1224390, -80.1373170]
+        ];
+        var options =
+        {
+          disableDefaultUI: true,
+          disableDoubleClickZoom: true,
+          draggable: false,
+          scrollwheel: false,
+          styles:
+          [
+            {
+              'elementType': 'labels',
+              'stylers': [{'visibility': 'off'}]
+            },
+            {
+              'elementType': 'geometry.stroke',
+              'stylers':
+              [
+                {'color': '#FFFFFF'},
+                {'weight': 0.5},
+                {'visibility': 'off'}
+              ]
+            },
+            {
+              'featureType': 'landscape',
+              'stylers':
+              [
+                {'visibility': 'on'},
+                {'color': '#FF0000'}
+              ]
+            },
+            {
+              'featureType': 'water',
+              'stylers':
+              [
+                {'color': '#FFFFFF'},
+                {'visibility': 'on'}
+              ]
+            },
+            {
+              'featureType': 'administrative',
+              'elementType': 'geometry.fill',
+              'stylers':
+              [
+                {'visibility': 'off'}
+              ]
+            }
+          ],
+          zoom: 3
+        }
+        var bounds = new google.maps.LatLngBounds();
+        var map = new google.maps.Map(document.getElementById('google-map'), options);
+
+        setMarkers(map, cities, bounds);
+      }
+
+      function setMarkers(map, cities, bounds)
+      {
+        for (var i = 0; i < cities.length; i++)
+        {
+          var city = cities[i];
+          var coordinates = new google.maps.LatLng(city[1], city[2]);
+          var marker = new google.maps.Marker(
+          {
+            clickable: false,
+            icon:
+            {
+              fillColor: '#FFFFFF',
+              fillOpacity: 1,
+              path: google.maps.SymbolPath.CIRCLE,
+              scale: 7,
+              strokeColor: '#333333',
+              strokeWeight: 3
+            },
+            position: coordinates,
+            map: map,
+            title: city[0]
+          });
+
+          bounds.extend(coordinates);
+        }
+
+        map.fitBounds(bounds);
+        map.panToBounds(bounds);
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </body>
+</html>

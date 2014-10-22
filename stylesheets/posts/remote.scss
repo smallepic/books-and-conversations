@@ -1,0 +1,115 @@
+---
+---
+
+@import "variables";
+@import "bootstrap/variables";
+
+
+//
+// Remote Theme
+// --------------------------------------------------
+
+
+// Variables
+// -------------------------
+
+$body-bg: #FFFFFF;
+$text-color: #1A1617;
+$link-color: #FF0000;
+
+
+// Scaffolding
+// -------------------------
+
+a,
+{
+  color: $link-color;
+
+  &:hover,
+  &:focus
+  {
+    color: $link-color;
+  }
+}
+
+
+// Typography
+// -------------------------
+
+.pull-quote
+{
+  color: $link-color;
+}
+
+
+// Masthead
+// -------------------------
+
+.masthead
+{
+  background-color: $link-color;
+
+  a
+  {
+    color: $body-bg;
+  }
+
+  h1
+  {
+    a
+    {
+      color: $body-bg;
+
+      &:hover,
+      &:focus
+      {
+        color: $text-color;
+
+        em
+        {
+          color: $text-color;
+        }
+      }
+
+      em
+      {
+        color: $body-bg;
+      }
+    }
+  }
+}
+
+
+// Cover
+// -------------------------
+
+.cover
+{
+  background-color: $body-bg;
+}
+
+
+// Google Map
+// -------------------------
+
+#google-map
+{
+  border: 1px solid $gray-lighter;
+  height: 200px;
+  margin-bottom: ($line-height-computed / 2);
+
+  @media (min-width: $screen-sm-min)
+  {
+    height: 200px;
+  }
+
+  @media (min-width: $screen-md-min)
+  {
+    height: 400px;
+  }
+
+  @media (min-width: $screen-lg-min)
+  {
+    height: 500px;
+  }
+}

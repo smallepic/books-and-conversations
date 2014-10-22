@@ -21,6 +21,7 @@
 
 *[class^="col-"] > *:first-child,
 .form-group > *:first-child,
+.table tr > td > *:first-child,
 .thumbnail > .caption > *:first-child,
 .well > *:first-child
 {
@@ -29,6 +30,7 @@
 
 *[class^="col-"] > *:last-child,
 .form-group > *:last-child,
+.table tr > td > *:last-child,
 .thumbnail > .caption > *:last-child,
 .well > *:last-child
 {
